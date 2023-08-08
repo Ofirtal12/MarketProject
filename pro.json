@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "title": "ADICOLOR SEASONAL",
+      "price": "$50"
+    },
+    {
+      "title": "ULTIMATE HAT",
+      "price": "$24.99"
+    },
+    {
+      "title": "MESSI GOAT TEE",
+      "price": "$100"
+    },
+    {
+      "title": "ADICOLOR HOODIE",
+      "price": "$74.50"
+    },
+    {
+      "title": "ADIDAS EARBUDS",
+      "price": "$200"
+    },
+    {
+      "title": "METAL BOTTLE 1L",
+      "price": "$80.04"
+    },
+    {
+      "title": "ULTRABOOTS SHOES",
+      "price": "$280"
+    },
+    {
+      "title": "SATURDAY BACKPACK",
+      "price": "$70.99"
+    }
+  ]
+}

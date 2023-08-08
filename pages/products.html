@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVSHOP</title>
+    <!-- link to CSS -->
+    <link
+      rel="stylesheet"
+      href="css/style.css">
+    <!-- Box Icons -->
+    <link
+     href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
+     rel='stylesheet'>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <header>
+        <!-- NAV -->
+        <div class="nav container">
+            <!-- LOGO -->
+            <a href="#" class="logo">SVSHOP</a>
+            <!-- CART ICON -->
+            <i class='bx bx-shopping-bag bx-tada' id="cart-icon" data-quantity="0"></i>
+            <!-- CART -->
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                <!-- CONTENT -->
+                <div class="cart-content">
+                    <!-- <div class="cart-box">
+                        
+                    </div> -->
+                </div>
+                <!-- TOTTAL -->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <!-- BUY BUTTON -->
+                <button type="button" class="btn-buy">Pay Now</button>
+                <!-- CLOSE CART -->
+                <i class='bx bx-x bx-tada' id="close-cart"></i>
+            </div>
+        </div>
+    </header>
+    <!-- PRODUCTS -->
+    <section class="shop container">
+        <h2 class="section-title">SVSHOP Products</h2>
+         <!-- SORTING -->
+         <div class="sorting">
+            <select id="sort-select">
+                <option value="name">Sort by Name</option>
+                <option value="price">Sort by Price</option>
+            </select>
+            <button id="sort-button">Sort</button>
+        </div>
+    <!-- SHOP CONTENT -->
+        <div class="shop-content">
+            <!-- BOX 1 -->
+            <div class="product-box">
+                <!-- stripe need img that are onLine on Local Server it will not show in stripe checkout page we have to upload  online -->
+                <img
+                 src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMa812aZDJQSjMeO5ODmrL1Oyinz9MK8kbzdoh_9ggLCfrZQRH6z_KduNNkjN60N5aixdFZtfv01ERtZdFpzgOonwi1O-wNFEfmtom8cnlniGxmE9sgKNTGO8kALI8m2MElHFrPWZatoBjyu1fgg7VjCkry_U6o1H7uHBpFRt-K4ANxdaEufxOnA/s320/product1.jpeg"
+                 alt=""
+                 class="product-img"
+                 >
+                 <h2 class="product-title">ADICOLOR SEASONAL</h2>
+                 <span class="price">$50</span>
+                 <i class='bx bx-shopping-bag bx-tada add-cart'></i>
+            </div>
+            <!-- BOX 2 -->
+            <div class="product-box">
+                <!-- stripe need img that are onLine on Local Server it will not show in stripe checkout page we have to upload  online -->
+                <img
+                 src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOo23O82CH076bkjobhIeQu998VDBQSF2-UdAPUFTER4rGis0UkQ4EEG8Y8JOu5AUdIASuCLjvp9NGZG8JZRXFMfGC_MDpnfoKeMfdbCeK9zDW9ubajmbfMBsB-lHCLLQBMuhSjA51lHhWPKFTSvMnYr8mWoTXqYkRJHwe8w82kqYtUt8jyPtulg/s320/product2.jpeg"
+                 alt=""
+                 class="product-img"
+                 >
+                 <h2 class="product-title">SATURDAY BACKPACK</h2>
+                 <span class="price">$70.99</span>
+                 <i class='bx bx-shopping-bag bx-tada add-cart'></i>
+            </div>
+            <!-- BOX 3 -->
+            <div class="product-box">
+                <!-- stripe need img that are onLine on Local Server it will not show in stripe checkout page we have to upload  online -->
+                <img
+                 src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVo5o8pNV2NjwTfDTxjf-zDSIbRqwhmPOrmFFM9Kb1tEf1QHvFI9Q5nchc4jVx3-sNS1MVw7BHoEkut-xANTFGLrRRpZQIS4_rz0Ur-L0vHV5F4lcA_0Q5-z4G4fAYlqn-Mfefi9avvWK86cE78C_xy9Jrt6DvEc2XwZ2KYm4pfs0T2Ux0KIabgg/s320/product3.jpeg"
+                 alt=""
+                 class="product-img"
+                 >
+                 <h2 class="product-title">ULTIMATE HAT</h2>
+                 <span class="price">$24.99</span>
+                 <i class='bx bx-shopping-bag bx-tada add-cart'></i>
+            </div>
+            <!-- BOX 4-->
+            <div class="product-box">
+                <!-- stripe need img that are onLine on Local Server it will not show in stripe checkout page we have to upload  online -->
+                <img
+                 src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsT0E-dWk6ddHx9hybpAZxB-38pNodpW3t04c9NkUZarFvfA55RN1KpxeNl1-muITOYdHN-63uiCKaJkS7DPvqcQ3rpYlL0XekY5LGzxn7qXnAOW56fMWbQyjpEFpWhk6BJk89qg8EJp3DYs3Azuvg61nlMmSMPKBTkGk12qcW6wQoCwBgf5_iXw/s320/product4.jpeg"
+                 alt=""
+                 class="product-img"
+                 >
+                 <h2 class="product-title">MESSI GOAT TEE</h2>
+                 <span class="price">$100</span>
+                 <i class='bx bx-shopping-bag bx-tada add-cart'></i>
+            </div>
+            <!-- BOX 5 -->
+            <div class="product-box">
+                <!-- stripe need img that are onLine on Local Server it will not show in stripe checkout page we have to upload  online -->
+                <img
+                 src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKoIX5A6RESi_89xkk8adwIYOYqMogdAHiHjSRa_o-UJ5OXjRGIhxL5-M-Xf21YvgD-Ej1p3ovaYWBn3XwgvMbYaDq2UUpNkO4gxFoOBrRgCoHeHwa2avgiSxwRWHOhp3R8epb-PtDcH_FW3ZOTPuX75Z1RmuvOSBzP7pDkufXwVQMOTUPMznybQ/s320/product5.jpeg"
+                 alt=""
+                 class="product-img"
+                 >
+                 <h2 class="product-title">ADICOLOR HOODIE</h2>
+                 <span class="price">$74.50</span>
+                 <i class='bx bx-shopping-bag bx-tada add-cart'></i>
+            </div>
+            <!-- BOX 6 -->
+            <div class="product-box">
+                <!-- stripe need img that are onLine on Local Server it will not show in stripe checkout page we have to upload  online -->
+                <img
+                 src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPNNj5TcUa5v3rpUIHh23BcJF6VYKtje1aJmaYCNR9kmDbBFf5-DbOdc6TU-mgMRFgOfIeHdugwoZF2bWu0b8JA5R-Se6jaJqtDMoBnF5mD228sdPz7AfYSZvvpWv6OxyRXoTsV8SwypO9aPWGSLldVe-NVHUkaIS5WnwtgoUdSi0Tkk9WU0500Q/s320/product6.jpeg"
+                 alt=""
+                 class="product-img"
+                 >
+                 <h2 class="product-title">ADIDAS EARBUDS</h2>
+                 <span class="price">$200</span>
+                 <i class='bx bx-shopping-bag bx-tada add-cart'></i>
+            </div>
+            <!-- BOX 7 -->
+            <div class="product-box">
+                <!-- stripe need img that are onLine on Local Server it will not show in stripe checkout page we have to upload  online -->
+                <img
+                 src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiO9mztSpDhCvTMQSwq_1uNKuZppx1u3H4aDl50ie-kWi-ywuOQMaScZZ_BkOOMpqZH1EvYua8o7QCuVhS-Tr2KVu-B5cJxGPs-qTvjAJB95jYEBp-zptz9TLoOZTBRN7-MWa_rATqHzks0j0oU2IuvvDkQuyTnRP_rthSzaCY9zosMN6yPiGspgQ/s320/product7.jpeg"
+                 alt=""
+                 class="product-img"
+                 >
+                 <h2 class="product-title">METAL BOTTLE 1L</h2>
+                 <span class="price">$80.04</span>
+                 <i class='bx bx-shopping-bag bx-tada add-cart'></i>
+            </div>
+            <!-- BOX 8 -->
+            <div class="product-box">
+                <!-- stripe need img that are onLine on Local Server it will not show in stripe checkout page we have to upload  online -->
+                <img
+                 src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkIG4Fgt7ULMnYaopyDSNZgbOv9Z2uilxy_5QrEJM8syTELXF5WR0bPmuE7SisJWZUZ5S-Sf3aiXRnCIwwwaE9tWuwLo5zc2pOb2JrHZQTiZp5N76YOrQybDqHM_pq0yxMbBZH7Powe5ZSgJP8Rv0cAWnuDzDh6b9Vs5XV2-2OkgNG_lPUN2ZXpw/s320/product8.jpeg"
+                 alt=""
+                 class="product-img"
+                 >
+                 <h2 class="product-title">ULTRABOOTS SHOES</h2>
+                 <span class="price">$280</span>
+                 <i class='bx bx-shopping-bag bx-tada add-cart'></i>
+            </div>
+            
+        </div>
+    </section>
+    <!-- LINK JS -->
+    <script src="js/prod.js"></script>
+    <script src="js/cart.js"></script>
+    
+</body>
+</html>

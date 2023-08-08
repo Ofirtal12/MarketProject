@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"/>
+    <title>SignUp</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Sign Up</h1>
+        <form action="/signup" method="post" onsubmit="return checkForm()" name="info">
+            <input type="text" placeholder="Enter a username..." name="username" pattern=".{4,8}" title="Username must be between 4 and 8 characters" required>
+            <span id="usernameError" style="color:red;"></span>
+            <input type="email" placeholder="Enter your Email address" name="email" required>
+            <span id="emailError" style="color:red;"></span>
+            <input type="password" placeholder="Enter your password" name="password" pattern=".{5,10}" title="Password must be between 5 and 10 characters and contain the $ symbol" required>
+            <span id="passwordError" style="color:red;"></span>
+            <input type="submit" id="inpSub" value="Sign Up">
+        </form>
+        <div class="member">
+            Already a Member? 
+            <a href="/">Login Here</a>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
